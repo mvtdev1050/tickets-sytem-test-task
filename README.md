@@ -17,6 +17,9 @@
     ```
     docker compose up
     ```
+5. Project will run on -
+   laravel : http://ip
+   Vuejs: http://ip:5173
 
 ## Mongodb Database
 
@@ -79,5 +82,6 @@ This API allows users to perform CRUD (Create, Read, Update, Delete) operations 
 - **Endpoint**: `/ticket/delete/{id}`
 - **Method**: `DELETE`
 - **Description**: Deletes a specific ticket by its ID.
+
 
 
