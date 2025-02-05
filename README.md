@@ -1,6 +1,3 @@
-# Project Title
-
-A brief description of what your project does.
 
 ## Installation
 
@@ -14,14 +11,15 @@ A brief description of what your project does.
 
 3. Run docker build command
     ```bash
-    docker compose build
+    docker compose build --no-cache
     ```
 4. Run docker up commad
     ```
     docker compose up
     ```
 
-## create DB in mongodb
+## Mongodb Database
+
 1. Check mongodb contain ID
     ```
     docker ps
@@ -47,6 +45,10 @@ A brief description of what your project does.
 # Ticket CRUD API
 
 This API allows users to perform CRUD (Create, Read, Update, Delete) operations on tickets. It provides endpoints to create, retrieve, update, and delete tickets.
+
+## Base URL
+
+{baseurl}/api
 
 ## API Endpoints
 
@@ -77,3 +79,5 @@ This API allows users to perform CRUD (Create, Read, Update, Delete) operations 
 - **Endpoint**: `/ticket/delete/{id}`
 - **Method**: `DELETE`
 - **Description**: Deletes a specific ticket by its ID.
+
+
